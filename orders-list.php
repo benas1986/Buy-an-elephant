@@ -31,7 +31,7 @@
         <!-- Navigation -->
         <nav class="navbar navbar-expand-lg navbar-light" id="mainNav">
             <div class="container">
-                <a class="navbar-brand js-scroll-trigger" href="index.php#page-top">Buy An Elephant</a>
+                <a class="navbar-brand js-scroll-trigger " href="index.php#page-top">Buy An Elephant</a>
                 <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                     Menu
                     <i class="fa fa-bars"></i>
@@ -39,13 +39,13 @@
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item">
-                            <a class="nav-link js-scroll-trigger" href="index.php#about">About</a>
+                            <a class="nav-link js-scroll-trigger text-info bg-white" href="index.php#about">About</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link js-scroll-trigger" href="index.php#contact">Order</a>
+                            <a class="nav-link js-scroll-trigger text-info bg-white" href="index.php#contact">Order</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link js-scroll-trigger" href="orders-list.php">Orders-list</a>
+                            <a class="nav-link js-scroll-trigger bg-info active" href="orders-list.php">Orders-list</a>
                         </li>
                     </ul>
                 </div>
@@ -53,16 +53,15 @@
         </nav>
 
         <!-- Orders-list Section -->
-        <section id="orders-list" class="orders-list-section text-center">
+        <section id="orders-list" class="orders-list-section">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-12 mx-auto">
+                    <div class="col-lg-12 mx-auto text-center">
                         <h2>Orders list</h2>
                     </div>
-                    <div class="col-lg-12 mx-auto text-left">
+                    <div class="col-lg-12 mx-auto text-center">
                         <a href="#" class = "btn btn-sm btn-create create_mem_id"  data-toggle = "modal" data-target="#create_modal" style="font-size:14px"><i class = "fa fa-plus"></i> Create new</a>
                     </div>
-                    <div class="messages"></div>
                     <table class = "table table-striped bg-info table-hover table-responsive" id="myTable">
                         <thead class="thead-default">
                             <tr>
@@ -147,7 +146,7 @@
 
                         </div>
                         <div class="modal-footer">
-                            <button type="submit" name="create" class="btn btn-primary btn-send " value="Send message" ><span class = "fa fa-save"></span> Create</button>
+                            <button type="submit" name="create" class="btn btn-create btn-send " value="Send message" ><span class = "fa fa-save"></span> Create</button>
                         </div>
                     </form>
                 </div>

@@ -28,21 +28,21 @@
         <!-- Navigation -->
         <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
             <div class="container">
-                <a class="navbar-brand js-scroll-trigger" href="#page-top">Buy An Elephant</a>
+                <a class="navbar-brand js-scroll-trigger active text-info" href="#page-top">Buy An Elephant</a>
                 <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                     Menu
                     <i class="fa fa-bars"></i>
                 </button>
-                <div class="collapse navbar-collapse" id="navbarResponsive">
-                    <ul class="navbar-nav ml-auto">
-                        <li class="nav-item">
-                            <a class="nav-link js-scroll-trigger" href="#about">About</a>
+                <div class="collapse navbar-collapse " id="navbarResponsive">
+                    <ul class="navbar-nav ml-auto ">
+                        <li class="active nav-item">
+                            <a class="nav-link js-scroll-trigger text-white bg-info" href="#about">About</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link js-scroll-trigger" href="#contact">Order</a>
+                            <a class="nav-link js-scroll-trigger text-white bg-info" href="#contact">Order</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link js-scroll-trigger" href="orders-list.php">Orders-list</a>
+                            <a class="nav-link js-scroll-trigger text-info bg-white" href="orders-list.php">Orders-list</a>
                         </li>
                     </ul>
                 </div>
@@ -73,7 +73,7 @@
                     <div class="col-lg-8 mx-auto">
                         <h2>About Buy An Elephant</h2>
                         <!--                        <p>This web page is used for checking my programming knowledge using PHP OOP and MySQL.</p>-->
-                        <p>Sometimes you think that a sales manager can offer anything. Even such an object as it does not have. However, the main reason for this idea is my childhood. In the childhood with the friends of the yard, sometimes we played such a game, when we needed to say - "buy an elephant".</p>
+                        <p>Sometimes you think that a sales manager can offer anything. Even such an object as it does not have. However, the main reason for this idea is my childhood. In the childhood with the friends of the yard, sometimes we played such a game, when we needed to say - "Do you want to buy an elephant?"</p>
                         <p>So, Everybody says, I don't want to buy an elephant, but please, buy an elephant! </p>
                     </div>
                     <div class="col-lg-8 col-lg-offset-2 mx-auto">
